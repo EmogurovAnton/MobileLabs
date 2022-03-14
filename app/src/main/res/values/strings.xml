@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RMP_LR1</string>
+    <string name="next">Next</string>
+    <string name="trueB">True</string>
+    <string name="falseB">False</string>
+
+    <string name="first_question">Столетняя война продолжалась сто лет</string>
+    <string name="second_question">Панамы придумали в панаме</string>
+    <string name="third_question">День Октябрьской революции отмечают в октябре</string>
+    <string name="fourth_question">Короля Георга 6 зовут Альберт</string>
+    <string name="fifth_question">Лев во время брачного периода спаривается 20–40 раз в день</string>
+    <string name="six_question">Лоси чувствуют, когда на их рога садятся насекомые</string>
+    <string name="seventh_question">У людей уникальны отпечатки пальцев, а у кошек носы</string>
+    <string name="eighth_question">Позвоночник верблюда повторяет форму горба</string>
+    <string name="nine_question">В Сахаре снег не выпадал никогда</string>
+    <string name="tenth_question">Ягоды клубники - это утолщенные части стеблей</string>
+    <string name="previous">Previous</string>
+
+    <string name="correct_answer">Правильно</string>
+    <string name="incorrect_answer">Не правильно</string>
+</resources>
