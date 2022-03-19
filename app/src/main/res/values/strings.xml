@@ -18,4 +18,6 @@
 
     <string name="correct_answer">Правильно</string>
     <string name="incorrect_answer">Не правильно</string>
+    <string name="hint">Show Hint</string>
+    <string name="cheating_is_bad">Подсматривать не хорошо!</string>
 </resources>

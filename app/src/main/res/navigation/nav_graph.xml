@@ -8,8 +8,8 @@
     <fragment
         android:id="@+id/questionsFragment"
         android:name="com.example.rmp_lr1.ui.questions.QuestionsFragment"
-        android:label="fragment_questions"
-        tools:layout="@layout/fragment_questions" >
+        android:label="Questions"
+        tools:layout="@layout/fragment_questions">
         <action
             android:id="@+id/action_questionsFragment_to_hintFragment"
             app:destination="@id/hintFragment" />
@@ -17,6 +17,10 @@
     <fragment
         android:id="@+id/hintFragment"
         android:name="com.example.rmp_lr1.ui.hint.HintFragment"
-        android:label="fragment_hint"
-        tools:layout="@layout/fragment_hint" />
+        android:label="Hint"
+        tools:layout="@layout/fragment_hint" >
+        <argument
+            android:name="questionId"
+            app:argType="integer" />
+    </fragment>
 </navigation>

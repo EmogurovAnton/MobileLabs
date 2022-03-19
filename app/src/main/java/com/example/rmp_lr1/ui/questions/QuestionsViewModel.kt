@@ -21,6 +21,9 @@ class QuestionsViewModel @AssistedInject constructor(
     val resourceId: MutableLiveData<Int> = MutableLiveData()
     val correctIndex: MutableLiveData<Int?> = MutableLiveData()
 
+    private val _hintMessage: MutableLiveData<Int> = MutableLiveData()
+    val hintMessage: LiveData<Int> = _hintMessage
+
 
     init {
         getTextQuestion(currentIndex)
@@ -74,6 +77,12 @@ class QuestionsViewModel @AssistedInject constructor(
         }
 
         resourceId.value = messageId
+    }
+
+    fun checkHint(isHintUsed: Boolean) {
+        if (isHintUsed) {
+            _hintMessage.value = R.string.cheating_is_bad
+        }
     }
 
     class Factory(
